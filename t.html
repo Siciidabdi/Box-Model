@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model </title>
+    <style>
+        img {
+            width: 942px;
+            height: 300px;
+            border: 1px solid navy;
+        }
+        .h2{
+            font-size: large;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+        .container {
+            width: 960px;
+            min-height: 420px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+            background-image: url(images/modern-gold-background-free-vector.jpg);
+        }
+        .header {
+            width: 942px;
+            height: 300px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+            background-image: url(images/abstract-black-white-and-blue-modern-material-header-technology-banner-abstract-widescreen-background-vector.jpg);
+         }
+         .nav{
+            width: 942px;
+           height: 50px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; 
+            background-image: url(images/abstract-black-white-and-blue-modern-material-header-technology-banner-abstract-widescreen-background-vector.jpg);
+           
+        }
+        .nav a{
+    position: relative;
+    left: 45%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+        }
+        .content {
+            width: 942px;
+           min-height: 420px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; 
+
+        }
+        .icon1{
+            color: #21f01a;
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 0 0 4px#2e2e2e,
+            0 0 0 6px var(--clr);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            font-size: 2.5em;
+            
+            
+        }
+        .icon2{
+            color:  #f01ac1;
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 0 0 4px #2e2e2e,
+            0 0 0 6px var(--clr);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            font-size: 2.5em;
+            
+        }
+        .icon3{
+            color:#2b37e3;
+            width: 80px;
+            height: 80px;
+            box-shadow: 0 0 0 4px #2e2e2e,
+            0 0 0 6px var(--clr);
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            font-size: 2.5em;
+            
+        }
+        .sectionone:hover{
+            background-color:  #21f01a;
+        }
+        .sectiontwo:hover{
+            background-color: #f01ac1;
+        }
+        .sectionthree:hover{
+            background-color: #2b37e3;
+        }
+        .sectionone{
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+            background-color: black;
+            color: white;
+        }
+        .sectiontwo {
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+            background-color: black;
+            color: white;
+        }
+        .sectionthree {
+            width: 295px;
+           height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+            background-color:black;
+            color: white;
+        }
+        .footer {
+            width: 942px;
+           min-height: 80px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto; 
+            background-color: black;
+            color: white;
+            background-image: url(images/images\ \(4\).jpg);
+        }
+        .footer h2{
+    position: absolute;
+    left: 45%;
+}
+.a{
+    color: white;
+}
+    </style>
+</head> 
+<body>
+    <div class="container">
+    <div class="header">
+        <img src="images/giphy.gif" alt="">
+    </div>
+    <div class="nav">
+        <a href="https://www.siciid9.com/">Home</a>
+        <a href="https://www.siciid9.com/">Blog</a>
+        <a href="https://www.siciid9.com/2023/01/man-utd-3-0-bournemouth-erik-ten-hag.html">Sports</a>
+        <a href="https://www.siciid9.com/2023/01/stellantis-si-ay-u-dhisto-shirkadda.html">Technology</a>
+        <a href="https://www.siciid9.com/p/about-us.html">About</a>
+    </div>
+    <div class="content">
+    <div class="sectionone">
+        
+        <div class="icon1">
+            <ion-icon name="brush"></ion-icon>
+        </div>
+        <h1>  Design  </h1>
+        <div class="h2">
+            A design is a plan or specification for the construction of an object or system or for the implementation 
+    <a href="https://en.wikipedia.org/wiki/Design" style="color:  #21f01a;">Read More</a>
+</div>
+            </div>
+    <div class="sectiontwo">
+        <div class="icon2">
+            <ion-icon name="code-slash"></ion-icon>
+        </div>
+        <h1>
+            Programming
+        </h1>
+        <div class="h2">
+           A Programming is the process of performing a particular computation.
+        </div>
+        <a href="https://en.wikipedia.org/wiki/Computer_programming" style="color:  #f01ac1;">Read More</a>
+    </div>
+    <div class="sectionthree">
+        <div class="icon3">
+            <ion-icon name="search"></ion-icon>
+        </div>
+        <h1>
+            SEO
+        </h1>
+        <div class="h2">
+           A SEO is the process of improving the quality and quantity of website traffic   
+        </div>
+        <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" style="color: #2b37e3;;">Read More</a>
+    </div>
+
+     </div>
+     <div class="footer">
+        <p>Code By <br>Siciid Abdi</p>
+        <div class="a">
+        <a href="https://facebook.com/Siciid Abdirahman" style="color: white;">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://wa.me/+2520637462444" style="color: white;">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <a href="https://youtube.com/Siciid Caano" style="color: white;">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                    <a href="https://github.com/Siciidabdi" style="color: white; size: 20px;">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </a>
+            </a>
+        </a>
+    </div>
+     </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
